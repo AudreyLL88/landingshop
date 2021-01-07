@@ -24,5 +24,4 @@ showMenu('nav-toggle','nav-menu')
                 width: "100%",
                 ease: Expo.easeInOut
             })
-            gsap.from('.home__scroll', {opacity: 0, duration: 3, x: -100})
             gsap.from('.home__year', {opacity: -1, duration: 1.5, delay: 1.5, x: 100})
